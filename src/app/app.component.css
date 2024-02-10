@@ -1,0 +1,48 @@
+h3 {
+    color: rgb(228, 68, 68);
+    font-weight: 400;
+    font-size: 2.4vh;
+    margin: 0%;
+    font-weight: 500;
+}
+
+small {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 1.6vh;
+    font-weight: 500;
+}
+
+.sun-container {
+    overflow: auto;
+    height: 35.7vh;
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px, rgba(0, 0, 0, 0.1) 0px 0px 25px;
+    padding: 6px 15px 15px 15px;
+    margin-top: 2vh;
+    margin-left: -1.3vw;
+    border-radius: 13px;
+    background-color: #ffe1b4;
+    min-width: 340px;
+    max-width: 400px;
+  }
+
+.container {
+    background-image: url(../assets/images/sunshineGirl.png);
+    height: 96%;
+    min-width: 800px;
+    max-width: 1300px;
+    min-width: max-content;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.sunny-col {
+    padding-top: 6vh !important;
+}

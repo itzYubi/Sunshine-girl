@@ -1,0 +1,88 @@
+form {
+    margin-top: 5px;
+}
+
+input {
+    white-space: normal;
+    line-height: normal;
+    height: 3.5vh;
+    font-size: 1.6vh;
+    width: 100%;
+}
+
+.row-md-6 {
+    margin-bottom: 2px;
+}
+
+.col-md-5 {
+    margin-right: 10px;
+}
+
+.col-md-7 {
+    flex: auto;
+}
+
+label {
+    display:block;
+    font-weight: 500;
+    width: 100%;
+    font-size: 1.6vh;
+    margin-bottom: 0px;
+}
+
+input[id="date"] {
+    width: 100%;
+}
+
+input[id="address"] {
+    width: 100%;
+}
+
+input[type="email"] {
+    display: block;
+    box-sizing: border-box; /* Includes padding and border in the width */
+    margin-bottom: 5px;
+}
+
+.buttonHolder{ 
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHolder button{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgb(228, 68, 68);
+    color: #ffffff;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color:rgb(248, 29, 29);
+    transition: 0.4s;
+}
+
+small {
+    color: rgb(248, 29, 29);
+}
+
+.buttonHolder button .cart-icon {
+    margin-left: 5px;
+    margin-right: 2px;
+    font-weight: 600;
+}
+
+.buttonHolder button h2 {
+    margin-left: 5px;
+    margin-right: 16%;
+    font-weight: 100;
+}

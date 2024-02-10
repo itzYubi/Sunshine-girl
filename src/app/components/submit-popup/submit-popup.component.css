@@ -1,0 +1,48 @@
+
+.img-row {
+    flex: 1;
+    margin-top: 5px;
+    min-height: 300px;
+    background-image: url(../../../assets/images/allGIF.gif);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 89, 89);
+    height: 43%;
+    width: 40%;
+    min-width: 558px;
+    max-width: 610px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 0 0 0;
+    border: 4px solid rgb(241, 89, 89);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px, rgba(0, 0, 0, 0.1) 0px 0px 25px;
+}
+
+.row-md-7 {
+    padding-left: 15px;
+    align-items: center;
+}
+
+h4 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+button {
+    position: absolute;
+    right: 3%;
+    background-color: rgb(241, 89, 89);
+    color: white;
+}
